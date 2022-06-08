@@ -20,7 +20,7 @@ from pathlib import Path
 class Config:
     @classmethod
     def read_config(self, section, key):
-        with open(r'C:\Users\47790147\PycharmProjects\SSOApplication\lib_folder\config.yaml') as f:
+        with open(r'https://github.com/KOUSHIK-gitproject/jenkins_selenium_slack/tree/master/lib_folder/config.yaml') as f:
             data = yaml.load(f, Loader=yaml.FullLoader)
         return data[section][key]
 
