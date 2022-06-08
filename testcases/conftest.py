@@ -14,7 +14,7 @@ def setup():
     options = Options()
     options.headless = True
     # driver = webdriver.Chrome(executable_path=r'C:\Users\47790147\PycharmProjects\SSOApplication\chromedriver.exe')
-    driver = webdriver.Chrome(executable_path=r"C:\Users\47790147\PycharmProjects\SSOApplication\chromedriver.exe", chrome_options=options)
+    driver = webdriver.Chrome(executable_path=r"D:\se\chromedriver.exe", chrome_options=options)
     driver.maximize_window()
     driver.get("https://sso.msa.apps.yokogawa.build/")
     driver.implicitly_wait(10)
